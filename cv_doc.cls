@@ -11,6 +11,12 @@
 
 \setlength{\parindent}{0pt}
 
+\titleformat{\title}
+  {\large\scshape\raggedright\bf\sffamily}
+  {}{0em}
+  {}
+  [\titlerule]
+
 \titleformat{\section}
   {\large\scshape\raggedright\bf\sffamily}
   {}{0em}
