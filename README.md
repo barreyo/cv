@@ -8,11 +8,11 @@
 \vspace{0.05cm}
 ![image](linkedin)
 
-[https://linkedin.com/in/backmanjohan](linkedin.com/in/backmanjohan)
+[linkedin.com/in/backmanjohan](https://linkedin.com/in/backmanjohan)
 
 ![image](github)
 
-[https://github.com/barreyo](github.com/barreyo)
+[github.com/barreyo](https://github.com/barreyo)
 
 \vspace{0.8cm}
 Education {#education .unnumbered .unnumbered}
@@ -22,6 +22,7 @@ Education {#education .unnumbered .unnumbered}
 2016 - Aug 2018}
 \datedsubsection{BSc Software Engineering, Chalmers University of Technology}{
 Aug 2012 - Jun 2015}
+\vspace{0.25cm}
 Experience {#experience .unnumbered .unnumbered}
 ==========
 

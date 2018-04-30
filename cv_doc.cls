@@ -5,7 +5,7 @@
 \LoadClass{article}
 
 \RequirePackage{titlesec}
-\RequirePackage[a4paper, total={6in, 9in}]{geometry}
+\RequirePackage[a4paper, total={5.7in, 9in}]{geometry}
 
 \pagenumbering{gobble}
 
