@@ -8,7 +8,7 @@
 \RequirePackage{hyperref}
 \RequirePackage{cleveref}
 \RequirePackage{titlesec}
-\RequirePackage[a4paper, total={5.7in, 9in}]{geometry}
+\RequirePackage[a4paper, total={6.2in, 9.5in}]{geometry}
 
 \newcommand\myshade{85}
 \colorlet{mylinkcolor}{violet}
