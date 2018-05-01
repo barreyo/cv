@@ -4,8 +4,21 @@
 
 \LoadClass{article}
 
+\RequirePackage[dvipsnames]{xcolor}
+\RequirePackage{hyperref}
+\RequirePackage{cleveref}
 \RequirePackage{titlesec}
 \RequirePackage[a4paper, total={5.7in, 9in}]{geometry}
+
+\newcommand\myshade{85}
+\colorlet{mylinkcolor}{violet}
+\colorlet{myurlcolor}{Aquamarine}
+
+\hypersetup{
+  linkcolor  = mylinkcolor!\myshade!black,
+  urlcolor   = myurlcolor!\myshade!black,
+  colorlinks = true,
+}
 
 \pagenumbering{gobble}
 
