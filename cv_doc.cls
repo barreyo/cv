@@ -13,7 +13,7 @@
 
 % Adjust vertical itemize spacing
 \setlist{nolistsep}
-\setlist[1]{itemsep=-3pt}
+\setlist[1]{itemsep=-1pt}
 
 \newcommand\myshade{85}
 \colorlet{mylinkcolor}{violet}
