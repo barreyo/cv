@@ -9,6 +9,11 @@
 \RequirePackage{cleveref}
 \RequirePackage{titlesec}
 \RequirePackage[a4paper, total={6.2in, 9.5in}]{geometry}
+\RequirePackage{enumitem}
+
+% Adjust vertical itemize spacing
+\setlist{nolistsep}
+\setlist[1]{itemsep=-3pt}
 
 \newcommand\myshade{85}
 \colorlet{mylinkcolor}{violet}

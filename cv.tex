@@ -1,7 +1,6 @@
 
 \documentclass{cv_doc}
 
-\usepackage{enumitem}
 \usepackage{graphicx}
 
 \graphicspath{{images/}}
@@ -33,7 +32,10 @@
 {\small \href{https://github.com/barreyo}{github.com/barreyo}}
 \end{minipage}
 
-\vspace{0.7cm}
+\vspace{0.5cm}
+
+\section*{Introduction}
+
 
 \section*{Education}
 \datedsubsection{MSc Computer Science, Chalmers University of Technology}{Aug
@@ -49,19 +51,19 @@ Aug 2012 - Jun 2015}
 \datedsubsection{Software Engineer / AI Researcher, Bracket Computing}{Dec 2017 -}
 
 \begin{itemize}[label={\tiny\raisebox{1ex}{\textbullet}}]
-  \item {Reinforcement Learning research focused on autonomous cyber-threat response using Bayesian Attack Graphs formulated as a POMDP}
+  \item {Reinforcement Learning research focused on autonomous cyber-threat response using Bayesian Attack Graphs formulated as a Partially Observable
+  Markov Decision Process (POMDP)}
   \item {Developed FreeBSD kernel code in C, and user-space Python services that
-  communicated with a Kubernetes-based control plane}
-  \item {Debugged and improved Go code in micro-services on Kubernetes}
-  \item {Maintaining an open source OpenAI environment for
+  communicated with a Kubernetes-managed control plane written in Go}
+  \item {Improved and debugged micro-services implemented in Go and managed in Kubernetes}
+  \item {Published an open source OpenAI environment for
   threat defense research. \href{https://github.com/barreyo/gym-threat}{github.com/barreyo/gym-threat}}
 \end{itemize}
 
 \datedsubsection{Software Engineering Intern, Bracket computing}{Jun 2015 - Jun 2016}
 
 \begin{itemize}[label={\tiny\raisebox{1ex}{\textbullet}}]
-  \item {Redesigned the whole Continuous Integration pipeline using Docker on
-  Jenkins}
+  \item {Designed and implemented the build and CI pipeline using Docker and Jenkins}
   \item {Built a testing framework in Python based on PyTest, that made it easy
   to write generic tests to test the product across AWS, GCE and on-premise
   VMWare}
