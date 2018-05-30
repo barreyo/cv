@@ -12,7 +12,7 @@ md: $(OUT_FILE).md
 	mv $(OUT_FILE).md $(MD_OUT).md
 
 %.pdf: %.tex
-	texliveonfly $< $@
+	sudo texliveonfly $< $@
 
 %.md: %.tex
 	pandoc -s $< -o $@
